@@ -31,7 +31,7 @@ def request(d):
     body = str.encode(json.dumps(data))
 
     url = 'https://ussouthcentral.services.azureml.net/workspaces/9a237f2890a648908296062f974dffbd/services/4e0857c14da148c3a92da0df3e9c75be/execute?api-version=2.0&format=swagger'
-    api_key = 'lpTcSKZBrIkkjQM7wbma5MCRhMW3F4nSnt00vNK81tpKdjak2wTdyK6xkbXSY7vqEZ+iGbwWrEZPvpTz2BBtDg==' # Replace this with the API key for the web service
+    api_key = '****' 
     headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
 
     req = urllib.request.Request(url, body, headers)
