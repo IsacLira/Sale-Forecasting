@@ -1,4 +1,4 @@
-# Sale-Forecasting
-This repo contains some codes for a sale forecasting project. 
+# Sale-Forecast
+This repo contains some code for a sales forecast project.
 
-This project aims to build a predictive model for sale forecasting. An deal/opportunity may to remain open for months. Our goal is building a model to predict if a deal will be closed or not, or alternatively, the pipeline probability during the deal lifetime. This information helps the  VP of sale make estrategic decisions.
+This project aims to build a predictive model for sales forecasting. In our company, an deal / opportunity of sale can remain open for months. Our goal is to build a model to predict whether a opportunity will be closed or not, or, alternatively, the likelihood of close during the pipeline. This information helps the sales vice president make strategic decisions.
